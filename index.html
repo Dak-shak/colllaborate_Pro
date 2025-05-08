@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+ main
     <header>
         <nav>
             <ul>
@@ -32,6 +34,87 @@
             <li><a href="#login">Login</a></li>
             <li><a href="#register">Register</a></li>
         </ul>
+    <header class="bg-green-600 text-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <nav class="flex items-center space-x-6">
+                <div>
+                    <img class="w-20 rounded-md h-20" src="logo.png" alt="">
+                </div>
+                <a href="#home" class="hover:text-gray-200 transition">Home</a>
+                <a href="#about" class="hover:text-gray-200 transition">About</a>
+                <a href="#services" class="hover:text-gray-200 transition">Services</a>
+                <a href="#contact" class="hover:text-gray-200 transition">Contact</a>
+            </nav>
+            <div class="flex space-x-4">
+                <a href="#login" class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-md shadow-md transition">Login</a>
+                <a href="#register" class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-6 rounded-md shadow-md transition">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="mt-10">
+        <div class="flex md:ml-0 ml-4 justify-around">
+            <div>
+                <img class="w-72" src="download.jpeg" alt="">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cum eveniet vitae, delectus alias nam <br> saepe recusandae tempore obcaecati illo rem quae? Autem voluptas <br>recusandae rem repellat cupiditate rerum quidem.
+                Assumenda optio non magnam eveniet est quae, libero <br> saepe, at voluptas expedita quo mollitia eos sunt <br> voluptatum eius dolor soluta iure repudiandae dicta laudantium inventore, <br> quisquam a distinctio tenetur. Voluptatem.
+                Provident debitis quisquam tempora nulla doloremque amet suscipit <br> error molestiae perferendis quis eius, <br> illo aperiam saepe accusamus explicabo natus adipisci sint ipsam! Debitis ipsa <br> harum aliquam ut voluptatum adipisci neque!
+                riatur hic delectus tenetur. Dolores tenetur <br> sit doloribus nam adipisci aspernatur eum eaque laborum labore nemo? Quae, iure!</p>
+            </div>
+        </div>
+        <div class="flex md:ml-0 ml-4 justify-around mt-10">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cum eveniet vitae, delectus alias nam <br> saepe recusandae tempore obcaecati illo rem quae? Autem voluptas <br>recusandae rem repellat cupiditate rerum quidem.
+                Assumenda optio non magnam eveniet est quae, libero <br> saepe, at voluptas expedita quo mollitia eos sunt <br> voluptatum eius dolor soluta iure repudiandae dicta laudantium inventore, <br> quisquam a distinctio tenetur. Voluptatem.
+                Provident debitis quisquam tempora nulla doloremque amet suscipit <br> error molestiae perferendis quis eius, <br> illo aperiam saepe accusamus explicabo natus adipisci sint ipsam! Debitis ipsa <br> harum aliquam ut voluptatum adipisci neque!
+                riatur hic delectus tenetur. Dolores tenetur <br> sit doloribus nam adipisci aspernatur eum eaque laborum labore nemo? Quae, iure!</p>
+            </div>
+            <div>
+                <img class="w-72" src="download (1).jpeg" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 mt-10">
+        <div class="container mx-auto py-8 px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Social Links -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Follow Us</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://facebook.com" class="hover:text-white transition">Facebook</a></li>
+                        <li><a href="https://linkedin.com" class="hover:text-white transition">LinkedIn</a></li>
+                        <li><a href="https://twitter.com" class="hover:text-white transition">Twitter</a></li>
+                    </ul>
+                </div>
+
+                <!-- Placeholder for additional content -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition">About</a></li>
+                        <li><a href="#services" class="hover:text-white transition">Services</a></li>
+                        <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Placeholder for images -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Gallery</h3>
+                    <div class="grid md:grid-cols-2 grid-cols-1 gap-2">
+                        <img src="download.jpeg" alt="">
+                        <img src="download (1).jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-900 md:text-center text-start py-4">
+            <p class="text-sm md:pl-0 pl-2">&copy; 2025 Your Company. All rights reserved.</p>
+        </div>
+>>>>>>> main
     </footer>
 </body>
 </html>
